@@ -1,14 +1,208 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "status": "success",
+  "data": {
+    "tieu_de": {
+      "required": true
+    },
+    "khach_hang": {
+      "required": true
+    },
+    "sdt_lien_he": "",
+    "ma_van_don": "",
+    "trang_thai_giao_hang": "",
+    "ngay_tao": "",
+    "ngay_giao_du_kien": "",
+    "so_lan_lay_giao_tra": "",
+    "nguoi_xu_ly": {
+      "values": {
+        "664": "8209-L\u00fd Lam S\u01a1n - CSKH",
+        "1122": "8112- C\u00fac Ki\u1ec1u CSKH",
+        "1726": "8215 - Th\u01b0\u01a1ng Ph\u1ea1m - HTKT",
+        "1800": "8225 - Minh Thuy\u1ebft - CSKH",
+        "2532": "8208- L\u1ec5 L\u00ea - HTKT",
+        "2846": "8223 - L\u00ea C\u00f4ng Th\u1ecbnh-HTKT",
+        "3064": "8102 - Th\u01b0 Ho\u00e0ng - CSKH",
+        "3105": "8304-Linh L\u01b0u-DVKH",
+        "3137": "8205 Tr\u1ea7n \u0110\u00ecnh Tr\u00ed - DVKH",
+        "3172": "8231- Gia Khang - DVKH",
+        "3173": "8130-T\u1eb1ng Th\u1ecb Ho\u00e0i Linh-DVKH",
+        "3174": "8132-Tr\u1ea7n Th\u00fay Qu\u1ef3nh Mai - DVKH",
+        "3217": "8213 - Tr\u1ea7n Ho\u00e0ng Anh - DVKH",
+        "3247": "Tr\u1ecbnh Th\u00f9y Linh - DVKH",
+        "3248": "8117 - Tr\u1ecbnh Th\u00f9y Linh - DVKH",
+        "3251": "8122 - C\u1ea5n Th\u1ecb Mai Loan - DVKH",
+        "3272": "8302 - B\u1ebf Thu Ho\u00e0i - DVKH",
+        "3280": "8211 - V\u0169 Tr\u1ecdng Long - HTKT HN",
+        "3344": "8234 - B\u00f9i Th\u1ebf Ho\u00e0n - DVKH",
+        "3352": "8206 - Nguy\u1ec5n N\u0103ng Duy - DVKH",
+        "3442": "8207 - Nguy\u1ec5n Ng\u1ecdc Th\u1eafng - DVKH",
+        "3455": "Nguy\u1ec5n Minh Ph\u01b0\u1edbc Th\u1ea1nh - DVKH DN",
+        "3456": "V\u00f5 \u0110\u00ecnh Ng\u1ecdc - DVKH DN",
+        "3478": "8105 - Ph\u1ea1m Th\u1ecb Ng\u00e2n - DVKH",
+        "3507": "8303 - L\u00ea Th\u1ecb Nga - DVKH",
+        "3553": "8107 - Ph\u1ea1m Qu\u1ef3nh Trang - DVKH",
+        "3554": "\u0110inh B\u00e1 Quang - DVKH \u0110N",
+        "3563": "Tr\u1ecbnh Minh H\u00e0 - DVKH",
+        "3617": "- Tr\u1ea7n B\u1ea3o Qu\u1ed1c - DVKH \u0110N",
+        "3660": "Nguy\u1ec5n \u0110\u00f4ng Phi - DVKH - \u0110N",
+        "3677": "8109 - L\u00ea B\u00e1 Th\u00e0nh - DVKH",
+        "3678": "Phan Th\u1ecb L\u1ec7 Quy\u00ean - DVKH \u0110N",
+        "3681": "8129 - \u0110o\u00e0n C\u00f4ng Th\u00e0nh - CTV DVKH",
+        "3703": "8106- H\u00e0 Giang - DVKH",
+        "3705": "Ng\u00f4 Th\u1ecb Th\u1ee7y - DVKH \u0110N",
+        "3717": "8115-Tr\u00e0 Th\u1ecb Ph\u01b0\u01a1ng Th\u1ea3o - DVKH",
+        "2242": "8118-L\u01b0u \u00c1i Ng\u1ecdc",
+        "2973": "8124-Vy Nguy\u1ec5n - CSKH",
+        "3068": "8101 -Vi Cao - CSKH",
+        "3209": "V\u00f5 V\u0103n Nhi\u1ec7m - DVKH",
+        "3216": "Nguy\u1ec5n H\u1eefu \u0110\u1ea1i - DVKH DN",
+        "3236": "Ng\u00f4 Qu\u1ed1c Kh\u00e1nh - DKVH DN",
+        "3530": "8201 - V\u0169 Trung \u0110\u1ee9c - DVKH",
+        "3536": "Nguy\u1ec5n B\u00e1 Vi\u00ean - DVKH \u0110N",
+        "133": "8103 - Dung Ph\u1ea1m - CSKH",
+        "252": "8104 - Minh Anh - CSKH",
+        "789": "8108 - Giang L\u00ea - CSKH",
+        "1724": "8116-Thu Hoa\u0300ng -DVKH",
+        "2410": "8301 Kh\u00e1nh Ly - CSKH",
+        "2471": "8110 - Trang Do - CSKH",
+        "3162": "8127-\u0110\u1eb7ng Th\u00fay Hi\u1ec1n - DVKH",
+        "3369": "Hu\u1ef3nh Ng\u1ecdc L\u00e2m - DVKH \u0110N",
+        "3471": "8210 \u0110\u00e0o V\u0103n Tu\u1ea5n - DVKH"
+      },
+      "required": true
+    },
+    "mo_ta": "",
+    "so_ticket_assembla": "",
+    "kenh_ho_tro": {
+      "values": {
+        "Call": "Call",
+        "Zopim": "Zopim",
+        "Email": "Primary Email",
+        "Skype": "Skype",
+        "Tr\u1ef1c ti\u1ebfp": "Tr\u1ef1c ti\u1ebfp",
+        "Kh\u00e1c": "Kh\u00e1c",
+        "Facebook": "Facebook"
+      }
+    },
+    "nguon_tiep_nhan": {
+      "values": {
+        "Sales": "Sales",
+        "DVKH": "DVKH",
+        "Kh\u00e1c": "Kh\u00e1c"
+      },
+      "required": true
+    },
+    "loai_ticket": {
+      "values": {
+        "Bugs": "Bugs",
+        "Case": "Case",
+        "H\u1ed7 tr\u1ee3 KH": "H\u1ed7 tr\u1ee3 KH",
+        "Khi\u1ebfu n\u1ea1i": "Khi\u1ebfu n\u1ea1i",
+        "H\u1ed7 tr\u1ee3 giao v\u1eadn": "H\u1ed7 tr\u1ee3 giao v\u1eadn"
+      },
+      "required": true
+    },
+    "ngay_hoan_tat_du_kien": {
+      "required": true
+    },
+    "muc_do_uu_tien": {
+      "values": {
+        "Low": "Low",
+        "Normal": "Normal",
+        "High": "High",
+        "Urgent": "Urgent"
+      }
+    },
+    "loai_cong_viec": {
+      "values": [
+        "(5) H\u1ee7y l\u1ea5y h\u00e0ng",
+        "(5) Thay \u0111\u1ed5i COD",
+        "(5) Thay \u0111\u1ed5i th\u00f4ng tin (t\u00ean, S\u0110T, \u0111\u1ecba ch\u1ec9) c\u1ee7a ng\u01b0\u1eddi nh\u1eadn",
+        "(5) Y\u00eau c\u1ea7u l\u01b0u kho",
+        "(5) Tra c\u1ee9u \u0111\u1ed1i so\u00e1t, thanh to\u00e1n",
+        "(5) L\u1ea5y nh\u1ea7m h\u00e0ng",
+        "(5) Giao nh\u1ea7m h\u00e0ng",
+        "(5) Giao h\u00e0ng\/chuy\u1ec3n ho\u00e0n h\u00e0ng ch\u1eadm",
+        "(5) H\u00e0ng h\u00f3a m\u1ea5t m\u00e1t, h\u01b0 h\u1ecfng trong qu\u00e1 tr\u00ecnh v\u1eadn chuy\u1ec3n",
+        "(5) L\u1ea5y h\u00e0ng tr\u1ec5",
+        "(5) Kh\u00f4ng c\u1eadp nh\u1eadt tr\u1ea1ng th\u00e1i v\u1eadn \u0111\u01a1n\/tr\u1ea1ng th\u00e1i c\u1eadp nh\u1eadt sai",
+        "(5) B\u01b0u t\u00e1 COD kh\u00f4ng ch\u00ednh x\u00e1c",
+        "(5) B\u01b0u t\u00e1 c\u00f3 th\u00e1i \u0111\u1ed9 kh\u00f4ng t\u1ed1t khi l\u1ea5y\/giao h\u00e0ng",
+        "(5) B\u01b0u c\u1ee5c y\u00eau c\u1ea7u ng\u01b0\u1eddi mua \u0111\u1ebfn b\u01b0u c\u1ee5c nh\u1eadn h\u00e0ng",
+        "(5) C\u00e1c y\u00eau c\u1ea7u kh\u00e1c"
+      ]
+    },
+    "nguoi_tao": {
+      "values": {
+        "664": "8209-L\u00fd Lam S\u01a1n - CSKH",
+        "1122": "8112- C\u00fac Ki\u1ec1u CSKH",
+        "1726": "8215 - Th\u01b0\u01a1ng Ph\u1ea1m - HTKT",
+        "1800": "8225 - Minh Thuy\u1ebft - CSKH",
+        "2532": "8208- L\u1ec5 L\u00ea - HTKT",
+        "2846": "8223 - L\u00ea C\u00f4ng Th\u1ecbnh-HTKT",
+        "3064": "8102 - Th\u01b0 Ho\u00e0ng - CSKH",
+        "3105": "8304-Linh L\u01b0u-DVKH",
+        "3137": "8205 Tr\u1ea7n \u0110\u00ecnh Tr\u00ed - DVKH",
+        "3172": "8231- Gia Khang - DVKH",
+        "3173": "8130-T\u1eb1ng Th\u1ecb Ho\u00e0i Linh-DVKH",
+        "3174": "8132-Tr\u1ea7n Th\u00fay Qu\u1ef3nh Mai - DVKH",
+        "3217": "8213 - Tr\u1ea7n Ho\u00e0ng Anh - DVKH",
+        "3247": "Tr\u1ecbnh Th\u00f9y Linh - DVKH",
+        "3248": "8117 - Tr\u1ecbnh Th\u00f9y Linh - DVKH",
+        "3251": "8122 - C\u1ea5n Th\u1ecb Mai Loan - DVKH",
+        "3272": "8302 - B\u1ebf Thu Ho\u00e0i - DVKH",
+        "3280": "8211 - V\u0169 Tr\u1ecdng Long - HTKT HN",
+        "3344": "8234 - B\u00f9i Th\u1ebf Ho\u00e0n - DVKH",
+        "3352": "8206 - Nguy\u1ec5n N\u0103ng Duy - DVKH",
+        "3442": "8207 - Nguy\u1ec5n Ng\u1ecdc Th\u1eafng - DVKH",
+        "3455": "Nguy\u1ec5n Minh Ph\u01b0\u1edbc Th\u1ea1nh - DVKH DN",
+        "3456": "V\u00f5 \u0110\u00ecnh Ng\u1ecdc - DVKH DN",
+        "3478": "8105 - Ph\u1ea1m Th\u1ecb Ng\u00e2n - DVKH",
+        "3507": "8303 - L\u00ea Th\u1ecb Nga - DVKH",
+        "3553": "8107 - Ph\u1ea1m Qu\u1ef3nh Trang - DVKH",
+        "3554": "\u0110inh B\u00e1 Quang - DVKH \u0110N",
+        "3563": "Tr\u1ecbnh Minh H\u00e0 - DVKH",
+        "3617": "- Tr\u1ea7n B\u1ea3o Qu\u1ed1c - DVKH \u0110N",
+        "3660": "Nguy\u1ec5n \u0110\u00f4ng Phi - DVKH - \u0110N",
+        "3677": "8109 - L\u00ea B\u00e1 Th\u00e0nh - DVKH",
+        "3678": "Phan Th\u1ecb L\u1ec7 Quy\u00ean - DVKH \u0110N",
+        "3681": "8129 - \u0110o\u00e0n C\u00f4ng Th\u00e0nh - CTV DVKH",
+        "3703": "8106- H\u00e0 Giang - DVKH",
+        "3705": "Ng\u00f4 Th\u1ecb Th\u1ee7y - DVKH \u0110N",
+        "3717": "8115-Tr\u00e0 Th\u1ecb Ph\u01b0\u01a1ng Th\u1ea3o - DVKH",
+        "2242": "8118-L\u01b0u \u00c1i Ng\u1ecdc",
+        "2973": "8124-Vy Nguy\u1ec5n - CSKH",
+        "3068": "8101 -Vi Cao - CSKH",
+        "3209": "V\u00f5 V\u0103n Nhi\u1ec7m - DVKH",
+        "3216": "Nguy\u1ec5n H\u1eefu \u0110\u1ea1i - DVKH DN",
+        "3236": "Ng\u00f4 Qu\u1ed1c Kh\u00e1nh - DKVH DN",
+        "3530": "8201 - V\u0169 Trung \u0110\u1ee9c - DVKH",
+        "3536": "Nguy\u1ec5n B\u00e1 Vi\u00ean - DVKH \u0110N",
+        "133": "8103 - Dung Ph\u1ea1m - CSKH",
+        "252": "8104 - Minh Anh - CSKH",
+        "789": "8108 - Giang L\u00ea - CSKH",
+        "1724": "8116-Thu Hoa\u0300ng -DVKH",
+        "2410": "8301 Kh\u00e1nh Ly - CSKH",
+        "2471": "8110 - Trang Do - CSKH",
+        "3162": "8127-\u0110\u1eb7ng Th\u00fay Hi\u1ec1n - DVKH",
+        "3369": "Hu\u1ef3nh Ng\u1ecdc L\u00e2m - DVKH \u0110N",
+        "3471": "8210 \u0110\u00e0o V\u0103n Tu\u1ea5n - DVKH"
+      }
+    },
+    "thoi_gian_tao": "",
+    "thoi_gian_chinh_sua": "",
+    "trang_thai": {
+      "values": {
+        "New": "M\u1edbi t\u1ea1o",
+        "Dangxemxet": "\u0110ang xem x\u00e9t",
+        "Fixing": "\u0110ang x\u1eed l\u00fd",
+        "Closed": "\u0110\u00e3 x\u1eed l\u00fd xong",
+        "Rejected": "T\u1eeb ch\u1ed1i",
+        "Duplicate": "Tr\u00f9ng l\u1eb7p",
+        "Completed": "\u0110\u00e3 b\u00e1o KH",
+        "NotCompleted": "Ch\u01b0a x\u1eed l\u00fd \u0111\u01b0\u1ee3c"
+      },
+      "required": true
+    }
   }
 }
